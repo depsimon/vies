@@ -1,0 +1,25 @@
+{
+    "name": "depsimon/vies",
+    "description": "A Laravel package to consume VIES API",
+    "keywords": [
+        "webartisan",
+        "vat",
+        "vies"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Simon Depelchin",
+            "email": "simon@webartisan.be"
+        }
+    ],
+    "type": "project",
+    "require": {
+        "php": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Depsimon\\Vies\\": "src/"
+        }
+    }
+}
