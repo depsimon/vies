@@ -6,14 +6,16 @@
         "vat",
         "vies"
     ],
+    "homepage": "https://github.com/depsimon/vies",
     "license": "MIT",
     "authors": [
         {
             "name": "Simon Depelchin",
-            "email": "simon@webartisan.be"
+            "email": "simon@webartisan.be",
+            "homepage": "https://webartisan.be",
+            "role": "Developer"
         }
     ],
-    "type": "project",
     "require": {
         "php": "^7.0"
     },
@@ -21,5 +23,8 @@
         "psr-4": {
             "Depsimon\\Vies\\": "src/"
         }
+    },
+    "config": {
+        "sort-packages": true
     }
 }
